@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Word Guess Game</title>
+
+	<!-- BOOTSTRAP -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- STYLE -->
+	<link href="styles.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+	<div class="container text-center">
+		<header id="main-header">
+			<h1>Word Guess Game</h1>
+			<p class="inst">Guess the Continent</p>
+			<div id="word-blanks"></div>
+      <div id="guesses-wrong-display"></div>
+
+			<div id="game-won" class="hide">You won!</div>
+			<div id="game-lose" class="hide">You lose!</div>
+
+		</header>
+    <div class="row">
+      <div class="col-sm-6">
+
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Guesses Remaining</h5>
+            <p class="card-text" id="guesses-left">9</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Guesses Incorrect</h5>
+            <p class="card-text" id="guesses-wrong">0</p>
+          </div>
+        </div>       
+      </div>
+    </div>
+	</div>
+
+    <!-- SCRIPT -->
+	<script src="data.js"></script>
+
+	<script src="scripts.js"></script>
+
+
+	</script>
+</body>
+
+</html>

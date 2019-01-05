@@ -1,0 +1,53 @@
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin: .5em;
+}
+
+.instructions {
+    text-align: center;
+    margin: .5em;
+}
+
+body {
+    background-color: rgb(189, 228, 179);
+}
+
+#game {
+    margin: 2em 0em 2em 10em;
+    z-index: 1;
+    text-align: left;
+}
+
+a:link,
+a:visited,
+a:hover {
+    text-decoration: none;
+    color: #dddddd;
+  }
+
+.foot-link {
+    align-content: left;
+}
+
+.navbar-footer {
+    position: absolute;
+    float: left;
+}
+
+.fixed-bottom {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: block;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
