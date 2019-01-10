@@ -1,19 +1,22 @@
 h1 {
+    background-color: rgb(189, 228, 179);
     font-size: 2em;
     text-align: center;
     margin: .5em;
 }
 
 .instructions {
+    background-color: rgb(189, 228, 179);
     text-align: center;
     margin: .5em;
 }
 
-body {
+html {
     background-color: rgb(189, 228, 179);
 }
 
 #game {
+    background-color: rgb(189, 228, 179);
     margin: 2em 0em 2em 10em;
     z-index: 1;
     text-align: left;

@@ -2,22 +2,47 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Gems</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
 </head>
 <body>
-    <div class="crystals">
 
+    <div class= "cont01">
+        ~Crystal Collector~
+    </div>
+    <div id = "bodbod">
+        <div class= "cont02">
+            <p>Instructions:</p>
+            <p>You will be given a random number at the start of the game.</p>            
+            <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+            <p>You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+        <div class = "cont05">
+            <p>Won: </p>
+            <p>Lost: </p>
+        </div>
+        <div class= "cont03">
+            Num
+        </div>
+        <div class= "cont04">
+            01 02 03 04
+        </div>
     </div>
 
+    <!-- Footer -->      
+    <nav class="navbar fixed-bottom navbar-light" style="background-color: #666666;">
+            <a class="navbar-footer" >
+                  <a class="foot-link" href="../../portfolio/index.html">Home</a>
+                  <a class="foot-link" href="../../portfolio/portfolio.html">Portfolio</a>
+                  <a class="foot-link" href="../../portfolio/contact.html">Contact</a>
+            </a>
+          </nav>
 
-
-    
+    <script src="assets/javascript/game.js"></script>
 </body>
-
-
-<script src="assets/javascript/game.js"></script>
 </html>
