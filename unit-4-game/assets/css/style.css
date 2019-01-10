@@ -2,6 +2,7 @@ html {
     background-color: rgb(189, 228, 179);
 }
 
+/* title Crystal Collector */
 .cont01 {
     font-size: 3em;
     margin: auto;
@@ -10,12 +11,12 @@ html {
     text-align: center;
     border: solid .03em;
     border-color: black;
-    width: 50%;
 }
 
+/* instructions */
 .cont02 {
     font-size: 1em;
-    margin: .5em;
+    margin: 1em;
     padding: .5em;
     background-color: rgb(252, 217, 122);
     border: solid .03em;
@@ -26,47 +27,64 @@ html {
 
 .cont02 p {
     margin-bottom: .8em;
-}
+} 
 
-.cont03 {
-    font-size: 2em;
-    text-align: center;
-    margin: .5em;
+/* won lost */
+.cont06 {
+    font-size: 1em;
+    text-align: left;
+    margin: 1em;
     padding: .5em;
-    background-color: rgb(252, 150, 206);
+    background-color: rgb(207, 99, 250);
     border: solid .03em;
     border-color: black;
-    width: 20%;
+    width: 10%;
     float: right;
 }
 
-.cont04 {
-    font-size: 2em;
+/* random goal number gen */
+.cont03 {
+    font-size: 1em;
     text-align: center;
-    margin: .5em;
+    margin: 1em;
+    padding: .5em;
+    background-color: rgb(252, 150, 252);
+    border: solid .03em;
+    border-color: black;
+    width: 15%;
+    float: right;
+}
+
+/* gems */
+.cont04 {
+    text-align: center;
+    margin: 1em;
     padding: .5em;
     background-color: rgb(215, 255, 142);
     border: solid .03em;
     border-color: black;
-    width: 40%;
+    width: 53.5%;
     float: right;
 }
 
+.gem {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    height: 5em;
+    width: 5em;
+}
+
+/* Current guess total */
 .cont05 {
     font-size: 1em;
-    text-align: left;
-    margin: .5em;
+    text-align: center;
+    margin: 1em;
     padding: .5em;
     background-color: rgb(150, 240, 252);
     border: solid .03em;
     border-color: black;
-    width: 20%;
+    width: 15%;
     float: right;
-}
-
-.cont05 p {
-    margin-bottom: .8em;
-
 }
 
 .navbar-brand:after {
