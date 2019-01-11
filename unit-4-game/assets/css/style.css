@@ -47,11 +47,12 @@ html {
     font-size: 1em;
     text-align: center;
     margin: 1em;
-    padding: .5em;
+    padding: 1em;
     background-color: rgb(252, 150, 252);
     border: solid .03em;
     border-color: black;
     width: 15%;
+    height: 3em;
     float: right;
 }
 
@@ -79,11 +80,12 @@ html {
     font-size: 1em;
     text-align: center;
     margin: 1em;
-    padding: .5em;
+    padding: 1em;
     background-color: rgb(150, 240, 252);
     border: solid .03em;
     border-color: black;
     width: 15%;
+    height: 3em;
     float: right;
 }
 
